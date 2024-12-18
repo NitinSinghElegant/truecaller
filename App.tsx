@@ -1,9 +1,11 @@
-import {View, Text} from 'react-native';
+import {Text, View} from 'react-native';
 import React from 'react';
 
-const App = () => {
+type Props = {};
+
+const App = (props: Props) => {
   return (
-    <View className="flex-1 items-center justify-center">
+    <View className="flex-1 items-center justify-center bg-red-500">
       <Text>App</Text>
     </View>
   );
